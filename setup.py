@@ -19,21 +19,11 @@ setup(
     author_email = 'lmjubuntu@gmail.com',
     license = 'MIT',
     platforms = 'any',
-    py_modules = [
+    packages = [
         'gevent_worker'
     ],
     requires = [
         'gevent (>=1.0)',
-        "beaker"
-    ],
-    classifiers = [
-        'Environment :: Web Environment',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python',
-        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
-        'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     cmdclass = {'build_py': build_py}
 )
